@@ -1,0 +1,7 @@
+approvers:
+- ardaguclu
+- ingvagabund
+reviewers:
+- ardaguclu
+- ingvagabund
+component: "krew-index"
