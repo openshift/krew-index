@@ -2,7 +2,7 @@
 if [ "$IS_CONTAINER" != "" ]; then
   yamllint ./plugins/
 else
-  docker run --rm \
+  podman run --rm \
     --env IS_CONTAINER=TRUE \
     --volume "${PWD}:/workdir:z" \
     --entrypoint sh \
